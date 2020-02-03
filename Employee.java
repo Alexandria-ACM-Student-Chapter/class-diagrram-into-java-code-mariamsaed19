@@ -3,7 +3,7 @@ package first;
 public class Employee {
 private int id,salary;
 private String firstName,lastName;
-Employee(int id,String firstName,String lastName,int salary){
+public Employee(int id,String firstName,String lastName,int salary){
 	this.id=id;
 	this.salary=salary;
 	this.firstName=firstName;
