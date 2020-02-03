@@ -35,7 +35,7 @@ public int raiseSalary(int percent) {
 	return salary;
 }
 public String toString() {
-	return ("Employee[id="+getID+",name="+getName+",Salary="+getSalary+"]");
+	return ("Employee[id="+this.getID()+",name="+this.getName()+",Salary="+this.getSalary()+"]");
 }
 
 public static void main(String[] args) {
